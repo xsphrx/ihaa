@@ -1,0 +1,231 @@
+ .html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+#root {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.simple-trans-main > .page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 300;
+  font-size: 5em;
+  will-change: transform, opacity;
+  text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+
+.more {
+  cursor: pointer;
+  margin-top: 15px;
+  z-index: 999;
+}
+
+.simple-trans-main > .form {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 100;
+  font-size: 1em;
+  will-change: transform, opacity;
+  text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+
+.logo {
+  z-index: 999;
+}
+
+.insideform {
+  box-shadow: 0 1px 5px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.insideform:hover {
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3);
+}
+
+
+/* Pre-render the bigger shadow, but hide it */
+.insideform::after {
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Transition to showing the bigger shadow on hover */
+.insideform:hover::after {
+  opacity: 1;
+}
+
+
+.box {
+  position: relative;
+  display: inline-block;
+  width: 500px;
+  height: 480px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  background-color: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.box::after {
+  content: "";
+  border-radius: 15px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.box:hover {
+  -webkit-transform: scale(1.25, 1.25);
+  transform: scale(1.02, 1.02);
+}
+
+.box:hover::after {
+    opacity: 1;
+}
+
+.about {
+  position: relative;
+  display: inline-block;
+}
+
+
+.hooks-main > svg {
+  display: none;
+}
+
+.hooks-main > div {
+  position: absolute;
+  will-change: transform;
+  border-radius: 50%;
+  background: lightcoral;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  opacity: 0.6;
+}
+
+.hooks-main > div:nth-child(1) {
+  width: 120px;
+  height: 120px;
+}
+
+.hooks-main > div:nth-child(2) {
+  width: 100px;
+  height: 100px;
+}
+
+.hooks-main > div:nth-child(3) {
+  width: 50px;
+  height: 50px;
+}
+
+.hooks-main > div::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 30%;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.hooks-main > div:nth-child(2)::after {
+  top: 40px;
+  left: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+.hooks-main > div:nth-child(3)::after {
+  top: 20px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+}
+
+.hooks-main {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: url('#goo');
+  overflow: hidden;
+}
+
+
+
+.trails-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trails-text {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  color: palevioletred;
+  font-size: 1em;
+  font-weight: 800;
+  text-transform: uppercase;
+  will-change: transform, opacity;
+  overflow: hidden;
+}
+
+.trails-text > div {
+  overflow: hidden;
+}
