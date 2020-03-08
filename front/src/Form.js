@@ -7,8 +7,7 @@ const Form = (props) => {
   const [index, set] = useState(0)
 
   return (
-   <animated.div style={{ ...props.style, background: '', color: 'grey' }} className="form">
-
+    <div className="container d-flex  justify-content-center pt-5">
     <div className="box">
     <form className="">
      <div class="form-row">
@@ -57,8 +56,7 @@ const Form = (props) => {
      <button type="submit" class="btn btn-primary">Sign in</button>
      </form>
     </div>
-
-    </animated.div>
+    </div>
   )
 }
 
