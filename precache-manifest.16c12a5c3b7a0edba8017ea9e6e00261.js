@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f2ef404e1fcb09364e7a45bf2dd413b",
+    "revision": "4947ea1b30e0c239c98e57134a56021f",
     "url": "/ihaa/index.html"
   },
   {
-    "revision": "85d158b670d074d3af01",
+    "revision": "252b16c1b129fc03a9c3",
     "url": "/ihaa/static/css/main.e14dc32b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ihaa/static/js/2.32f99c67.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85d158b670d074d3af01",
-    "url": "/ihaa/static/js/main.5a8c3942.chunk.js"
+    "revision": "252b16c1b129fc03a9c3",
+    "url": "/ihaa/static/js/main.b4078d52.chunk.js"
   },
   {
     "revision": "dc701b959548e378adaf",
