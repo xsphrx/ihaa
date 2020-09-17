@@ -1,30 +1,15 @@
-import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import logo from './logo.svg';
-import './App.css';
-import Form from './Form.js'
-import Home from './Home.js'
+import React from "react";
+import "./static/css/main.css";
+
+import BackgroundWave from "./components/backgroundWave";
+import Logo from "./components/logo";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-      
-        <Switch>
-          <Route path="/form">
-            <Form />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className="content">
+      <Logo />
+      <BackgroundWave />
+    </div>
   );
 }
 

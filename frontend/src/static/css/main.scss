@@ -1,0 +1,72 @@
+// #body, #left-head {
+//     animation: person1 1s ease;
+// }
+
+// @keyframes person1{
+//     from{
+//         transform: translate(-20%);
+//     }
+//     to{
+//         transform: translate(0);
+//     }
+// }
+
+// #right-head, #right-arm {
+//     animation: person2 1s ease;
+// }
+
+// @keyframes person2 {
+//     from {
+//         transform: translate(20%);
+//     }
+//     to {
+//         transform: tranlsate(0);
+//     }
+// }
+
+// #left-arm, #l1, #l2, #l3, #l4, #l5, #l6, #l7 {
+//     animation: hand1 1s ease;
+// }
+
+// @keyframes hand1 {
+//     from {
+//         transform: rotateZ(40deg);
+        
+//     }
+//     to {
+//         transform: rotateZ(0);
+//     }
+// }
+
+
+svg{
+    overflow: visible !important;
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.content {
+    background: rgb(55,134,139);
+    background: linear-gradient(141deg, rgba(55,134,139,1) 0%, rgba(45,104,122,1) 32%, rgba(35,43,82,1) 100%);
+    display: flex;
+    flex-direction: column;
+    
+
+    .logosvg {
+        width: 40vw;
+        height: 40vh;
+        display: flex;
+        align-self: center;
+    }
+
+    .wave {
+        svg {
+            display: block;
+            margin-bottom: -1vh;
+        }
+    }
+}
