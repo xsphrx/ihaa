@@ -11,8 +11,8 @@ const Logo = () => {
   let body = useRef();
   let ease = Sine.easeInOut;
 
-  useEffect(async () => {
-    let lttrs = await [...Array(37).keys()].map((e) => {
+  useEffect(() => {
+    let lttrs = [...Array(37).keys()].map((e) => {
       return letters.current[e + 1];
     });
     TweenMax.staggerFrom(
@@ -42,7 +42,12 @@ const Logo = () => {
   }, []);
 
   return (
-    <svg viewBox="0 0 866 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      className="logo"
+      viewBox="0 0 866 960"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
       <g id="ihaalogo11 1">
         <g id="Group">
           <path
