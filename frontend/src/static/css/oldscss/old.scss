@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url(../fonts/Nunito-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+
+svg{
+    overflow: visible !important;
+}
+
+
+
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    
+    .wave-bg {
+        background: rgb(55,134,139);
+        background: linear-gradient(141deg, rgba(55,134,139,1) 0%, rgba(45,104,122,1) 32%, rgba(35,43,82,1) 100%);
+        display: flex;
+        flex-direction: column;
+        
+    
+        .logo {
+            width: 60vw;
+            height: 40vh;
+            display: flex;
+            align-self: center;
+        }
+
+        .main-text {
+            color: white;
+            font-size: 1.4rem;
+            letter-spacing: 0.2rem;
+            margin: 10vh 5vw 5vh 5vw;
+        }
+
+        .second-text {
+            color: white;
+            font-size: 0.8rem;
+            letter-spacing: 0.1rem;
+            margin: 0vh 5vw;
+        }
+    
+        .wave {
+            svg {
+                display: block;
+                margin-bottom: -1vh;
+            }
+        }  
+    }
+
+
+    .call-to-action {
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+        
+        div {
+            width: 50vw;
+            background-color:  #2d687a;
+            padding: 1vh 5vw;
+            text-align: center;
+            color: white;
+            border-radius: 25px;
+            box-shadow: 0px 3px 4px rgba(0,0,0,0.25);
+            
+
+            span {
+                font-size: 1.5rem;
+                font-weight: 600;
+            }
+        }
+    }
+
+
+}
+
+
+// .navbar {
+//     position: fixed;
+//     bottom: 0;
+//     display: flex;
+//     width: 100vw;
+//     justify-content: space-around;
+//     color: white;
+//     background-color: #2d687a;
+
+//     div {
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         margin: 1vh 0;
+        
+//         span {
+//             margin-top: 0.5vh;
+//         }
+//     }
+// }
+
+
+.about {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;;
+
+    .bg {
+        position: absolute;
+        z-index: -1;
+    }
+
+    .celebration {
+        margin-left: -20vw;
+        margin-top: -10vh;
+    }
+
+    @include media("<smallphone"){
+        .bg {
+            width: 100vw;
+        }
+        .celebration {
+            margin-top: -7vh;
+            width: 80vw;
+        }
+    }
+
+    @include media("<=phone", ">=smallphone") {
+        .bg {
+            width: 95vw;
+        }
+        .celebration {
+            margin-top: -10vh;
+            width: 100vw;
+        }
+    }
+
+    .header {
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        margin-left: 2vw;
+    }
+
+    .text {
+        margin-left: 2vw;
+        font-size: 1rem;
+        width: 90vw;
+    }
+}
+
+.whatwedo {
+    margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .bg {
+        position: absolute;
+        z-index: -1;
+    }
+
+    @include media("<smallphone"){
+        .bg {
+            width: 120vw;
+        }
+        .welcoming {
+            margin-top: -13vh;
+            width: 80vw;
+        }
+    }
+
+    @include media("<=phone", ">=smallphone") {
+        .bg {
+            width: 95vw;
+        }
+        .welcoming {
+            margin-top: -10vh;
+            width: 80vw;
+        }
+    }
+
+    .welcoming {
+        
+    }
+
+    .header {
+        font-family: 'Montserrat';
+        font-size: 2rem;
+        margin-right: 2vw;
+    }
+
+    .text {
+        text-align: right;
+        margin-right: 2vw;
+        font-size: 1rem;
+        width: 90vw;
+    }
+}
+
+.spacer {
+    height: 500px;
+}

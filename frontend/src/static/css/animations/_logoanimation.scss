@@ -1,0 +1,57 @@
+#pin3, #pin33 {
+    animation: circles 2s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+// #c4 {
+//     animation: circles1 2s linear;
+//     animation-iteration-count: infinite;
+//     animation-direction: alternate;
+// }
+
+@keyframes circles{
+    from{
+        transform: translateY(-3%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+@keyframes circles1{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(3%);
+    }
+}
+
+
+// #right-head, #right-arm {
+//     animation: person2 1s ease;
+// }
+
+// @keyframes person2 {
+//     from {
+//         transform: translate(20%);
+//     }
+//     to {
+//         transform: tranlsate(0);
+//     }
+// }
+
+// #left-arm, #l1, #l2, #l3, #l4, #l5, #l6, #l7 {
+//     animation: hand1 1s ease;
+// }
+
+// @keyframes hand1 {
+//     from {
+//         transform: rotateZ(40deg);
+        
+//     }
+//     to {
+//         transform: rotateZ(0);
+//     }
+// }
