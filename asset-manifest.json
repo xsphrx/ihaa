@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ihaa/static/css/main.9ad8e0ee.chunk.css",
+    "main.css": "/ihaa/static/css/main.449fcd1b.chunk.css",
     "main.js": "/ihaa/static/js/main.563da083.chunk.js",
     "main.js.map": "/ihaa/static/js/main.563da083.chunk.js.map",
     "runtime-main.js": "/ihaa/static/js/runtime-main.016b1a24.js",
@@ -8,9 +8,9 @@
     "static/js/2.284ac121.chunk.js": "/ihaa/static/js/2.284ac121.chunk.js",
     "static/js/2.284ac121.chunk.js.map": "/ihaa/static/js/2.284ac121.chunk.js.map",
     "index.html": "/ihaa/index.html",
-    "precache-manifest.14f271783b6a8516d509765cc0b22553.js": "/ihaa/precache-manifest.14f271783b6a8516d509765cc0b22553.js",
+    "precache-manifest.34af6b5faad5d137cc98b73de5c3be52.js": "/ihaa/precache-manifest.34af6b5faad5d137cc98b73de5c3be52.js",
     "service-worker.js": "/ihaa/service-worker.js",
-    "static/css/main.9ad8e0ee.chunk.css.map": "/ihaa/static/css/main.9ad8e0ee.chunk.css.map",
+    "static/css/main.449fcd1b.chunk.css.map": "/ihaa/static/css/main.449fcd1b.chunk.css.map",
     "static/js/2.284ac121.chunk.js.LICENSE.txt": "/ihaa/static/js/2.284ac121.chunk.js.LICENSE.txt",
     "static/media/main.css": "/ihaa/static/media/Tajawal-Regular.6b10b55e.ttf",
     "static/media/click-down.svg": "/ihaa/static/media/click-down.709a720d.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.016b1a24.js",
     "static/js/2.284ac121.chunk.js",
-    "static/css/main.9ad8e0ee.chunk.css",
+    "static/css/main.449fcd1b.chunk.css",
     "static/js/main.563da083.chunk.js"
   ]
 }
