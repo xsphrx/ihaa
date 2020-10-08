@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ihaa/static/css/main.8fadc6e2.chunk.css",
-    "main.js": "/ihaa/static/js/main.50a3abd5.chunk.js",
-    "main.js.map": "/ihaa/static/js/main.50a3abd5.chunk.js.map",
+    "main.css": "/ihaa/static/css/main.3fb71efb.chunk.css",
+    "main.js": "/ihaa/static/js/main.9f2e72d7.chunk.js",
+    "main.js.map": "/ihaa/static/js/main.9f2e72d7.chunk.js.map",
     "runtime-main.js": "/ihaa/static/js/runtime-main.016b1a24.js",
     "runtime-main.js.map": "/ihaa/static/js/runtime-main.016b1a24.js.map",
     "static/js/2.284ac121.chunk.js": "/ihaa/static/js/2.284ac121.chunk.js",
     "static/js/2.284ac121.chunk.js.map": "/ihaa/static/js/2.284ac121.chunk.js.map",
     "index.html": "/ihaa/index.html",
-    "precache-manifest.e50c5ba6f810762dac79fa2c38d37d9f.js": "/ihaa/precache-manifest.e50c5ba6f810762dac79fa2c38d37d9f.js",
+    "precache-manifest.660e9692fc3bd8b3a0d904be8ed4a8a0.js": "/ihaa/precache-manifest.660e9692fc3bd8b3a0d904be8ed4a8a0.js",
     "service-worker.js": "/ihaa/service-worker.js",
-    "static/css/main.8fadc6e2.chunk.css.map": "/ihaa/static/css/main.8fadc6e2.chunk.css.map",
+    "static/css/main.3fb71efb.chunk.css.map": "/ihaa/static/css/main.3fb71efb.chunk.css.map",
     "static/js/2.284ac121.chunk.js.LICENSE.txt": "/ihaa/static/js/2.284ac121.chunk.js.LICENSE.txt",
     "static/media/main.css": "/ihaa/static/media/Tajawal-Regular.6b10b55e.ttf",
     "static/media/click-down.svg": "/ihaa/static/media/click-down.709a720d.svg",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.016b1a24.js",
     "static/js/2.284ac121.chunk.js",
-    "static/css/main.8fadc6e2.chunk.css",
-    "static/js/main.50a3abd5.chunk.js"
+    "static/css/main.3fb71efb.chunk.css",
+    "static/js/main.9f2e72d7.chunk.js"
   ]
 }
